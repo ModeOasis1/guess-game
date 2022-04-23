@@ -1,0 +1,52 @@
+.page_game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.game {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.game .canvas {
+    /* margin-right: 20%; */
+}
+.game .users {
+    /* margin-right: 30%; */
+}
+.levels {
+    display: flex;
+}
+.levels > h3 {
+    margin-left: 4vh;
+}
+.words {
+    /* margin-right: -20vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_word {
+    display: flex;
+}
+.button_word button {
+    margin-left: 2vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .game {
+        display: block !important;
+    }
+    .home_button {
+        padding: 23px 24px !important;
+        min-width: 100px !important;
+    }
+    button {
+        padding: 23px 24px !important;
+        min-width: 100px !important;
+        font-size: 17px !important;
+    }
+}
+

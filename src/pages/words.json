@@ -1,0 +1,33 @@
+{
+    "easy":[
+        "Boy",
+        "Box",
+        "Bug",
+        "Eye",
+        "Ice",
+        "Baby",
+        "Hair"
+    ],
+    "medium":[
+        "Angle",
+        "Brain",
+        "Chair",
+        "Dress",
+        "Hotel",
+        "Money",
+        "Model"
+    ],
+    "hard":[
+        "Artist",
+        "Bottle",
+        "Berlin",
+        "Dollar",
+        "Little",
+        "Airport",
+        "Medical",
+        "Blizzarded",
+        "Chiffchaff",
+        "Surreptitious",
+        "Inconsequential"
+    ]
+}

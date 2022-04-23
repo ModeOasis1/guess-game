@@ -1,0 +1,24 @@
+.secondPlayer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondPlayer .container {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    width: 50%;
+    height: 85vh;
+    border: 1px solid #000;
+}
+
+@media only screen and (max-width: 740px) {
+    img {
+        width: 100%;
+    }
+
+    input[type=text], select {
+        padding: 12px 0px;
+    }
+}
